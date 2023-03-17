@@ -1,9 +1,10 @@
-telegram_token: ""
-openai_api_key: ""
+telegram_token: "741969900:AAG3ASazHGF_qREFvfSA9MtcK3S54T5Hnos"
+openai_api_key: "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"
+mongo_connection_string: "mongodb+srv://xskt:123456789Vv@xskt.a6sdjyz.mongodb.net/?retryWrites=true&w=majority"
 use_chatgpt_api: true
-allowed_telegram_usernames: []  # if empty, the bot is available to anyone. pass a username string to allow it and/or user ids as integers
-new_dialog_timeout: 600  # new dialog starts after timeout (in seconds)
-enable_message_streaming: true  # if set, messages will be shown to user word-by-word
+allowed_telegram_usernames: [] # if empty, the bot is available to anyone. pass a username string to allow it and/or user ids as integers
+new_dialog_timeout: 600 # new dialog starts after timeout (in seconds)
+enable_message_streaming: true # if set, messages will be shown to user word-by-word
 
 # prices
 chatgpt_price_per_1000_tokens: 0.002
