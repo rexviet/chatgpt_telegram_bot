@@ -1,6 +1,6 @@
-telegram_token: "741969900:AAG3ASazHGF_qREFvfSA9MtcK3S54T5Hnos"
-openai_api_key: "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"
-mongo_connection_string: "mongodb+srv://xskt:123456789Vv@xskt.a6sdjyz.mongodb.net/?retryWrites=true&w=majority"
+telegram_token: ""
+openai_api_key: ""
+mongo_connection_string: ""
 use_chatgpt_api: true
 allowed_telegram_usernames: [] # if empty, the bot is available to anyone. pass a username string to allow it and/or user ids as integers
 new_dialog_timeout: 600 # new dialog starts after timeout (in seconds)
